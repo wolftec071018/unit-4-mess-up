@@ -1,0 +1,49 @@
+<!Doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div>
+        <h1 class=title>Crystal Collector!</h1>
+    </div>
+    <div>
+        <li class=info>
+            Match the random number given by clicking on cystals which all have random values!
+        </li>
+    </div>
+    <div class="numberToMatch">
+            <h2>Number To Get:
+                <span id= "randomNumber"></span>
+            </h2>
+    </div>
+    <div class="winsAndLosses">
+            <h2>Wins:
+                <span id= "numberWins"></span>
+                Losses: 
+                <span id= "numberLosses"></span>
+            </h2>
+        </div>
+        <div class="gems">
+                <img src="assets/images/blue.jpg" class=gemImage id="one" alt="Blue Gem">
+                <img src="assets/images/green.jpg" class=gemImage id="two" alt="Green Gem">
+                <img src="assets/images/red.jpg" class=gemImage id= "three" alt="Red Gem">
+                <img src="assets/images/yellow.jpg" class=gemImage id= "four" alt="Yellow Gem">
+            </div>
+            <div class="userTotal">
+                <h2>Your total score is:
+                    <span id="finalTotal"></span>
+                </h2>
+            </div>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+            <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+    
+</body>
+</html>
